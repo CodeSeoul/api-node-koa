@@ -38,3 +38,8 @@ This defines our routes. A route is a combination of the HTTP method and a URL p
 
 ### controllers/index.js
 Here, we define a basic controller. A controller is the logic that is used to manipulate some data. If you're familiar with the MVC server design, this is the same controller as in that framework. Routers use controllers to fulfill the request that the route matches.
+
+## How to Run
+* Use `npm run basic` to run the basic NodeJS example
+* Use `npm run start` to run the Koa server
+* Use `npm run test` to run our Jest test
