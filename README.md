@@ -23,6 +23,7 @@ We'll review each file and the purpose it serves. You should review the files in
     4. Add `"private": true` to prevent accidental publishing to npm
     5. Add `"type": "module"` to allow ES6 imports
     6. In `scripts`, add the `basic`, `start`, and `test` scripts for running our basic NodeJS demonstration, starting our Koa server, and running our tests, respectively
+If you want to try stuff out, you can use `npm run <script>` where `<script>` is one of the words we listed in step 6.
 
 ### package-lock.json
 You can ignore this, but make sure to include it in Git. The `npm` tool uses this to carefully track your dependencies.
