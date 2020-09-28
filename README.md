@@ -30,10 +30,14 @@ You can ignore this, but make sure to include it in Git. The `npm` tool uses thi
 ### nodebasic.js
 This file demonstrates some of the core features of NodeJS. This will be helpful for running NodeJS in general, even when not building API servers. The comments in this file have more detailed information.
 
+### index.test.js
+This is an example of writing and running tests. Good engineers write good tests. You should get in the habit of this. For this demonstration, we use a system called jest, though chai, mocha, and jasmine are alternatives.
+
 ### index.js
 This is our "entrypoint", that is, the file that starts up our whole server. Here, we setup the Koa web server and all of the supporting systems.
 
 ### middlewares/injectTimestamp.js
+This is an example of writing a custom middleware that does something at least a little interesting. Be sure to check it out. It's quick.
 
 ### routes/index.js
 This defines our routes. A route is a combination of the HTTP method and a URL path to determine what set of logic to run. Routes are often described by a combination of the HTTP method and URL path, e.g. `GET /users`. If you're not familiar with HTTP and URLs, you should read up on those separately.
