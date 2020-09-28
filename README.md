@@ -12,7 +12,7 @@ NPM is short for Node Package Manager and is accessible via the `npm` CLI comman
 Koa is a new framework for building web servers on NodeJS. You've probably heard of the popular ExpressJS framework; Koa is its descendant. Whereas ExpressJS focuses on routes, Koa focuses on middlewares; however, you can still create routes on top of middlewares. If none of this makes sense, don't worry. We'll cover it in more detail.
 
 ## The Files
-We'll review each file and the purpose it serves.
+We'll review each file and the purpose it serves. You should review the files in the order that is listed below.
 
 ### package.json
 * This defines the metadata for our project, like the name, dependencies, and helper scripts.
