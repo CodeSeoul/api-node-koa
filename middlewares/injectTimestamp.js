@@ -51,3 +51,7 @@ export default async (ctx, next) => {
     await next();
     ctx.body.timestamp = Date.now();
 };
+
+// For you experienced folks out there, I know I have a logic
+// bug here when combined with the router. I'm choosing to not
+// worry about it for now.
