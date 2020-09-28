@@ -1,6 +1,6 @@
 # Build an API Server using NodeJS and Koa
 
-This repository is a brief tutorial and demonstration of how to use NodeJS and how to setup an API server using the Koa framework.
+This repository is a brief tutorial and demonstration of how to use NodeJS and how to setup an API server using the Koa framework. You can find the class recording on [YouTube](https://www.youtube.com/watch?v=TH5uoOEGylw) and the notes used for the class in [this Google Doc](https://docs.google.com/document/d/1r8uUCPc-hcN-udsY6HMYtBlfhU4da3JY-tR_OHd27EI/edit?usp=sharing).
 
 ## What's NodeJS?
 NodeJS allows us to run Javascript code directly in our operating system instead of inside a browser. It runs on top of Google's V8 Javascript engine. If you want to run Javascript outsode of the browser, chances are that you'll be using NodeJS.
