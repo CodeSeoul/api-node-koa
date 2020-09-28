@@ -33,6 +33,8 @@ This file demonstrates some of the core features of NodeJS. This will be helpful
 ### index.js
 This is our "entrypoint", that is, the file that starts up our whole server. Here, we setup the Koa web server and all of the supporting systems.
 
+### middlewares/injectTimestamp.js
+
 ### routes/index.js
 This defines our routes. A route is a combination of the HTTP method and a URL path to determine what set of logic to run. Routes are often described by a combination of the HTTP method and URL path, e.g. `GET /users`. If you're not familiar with HTTP and URLs, you should read up on those separately.
 
